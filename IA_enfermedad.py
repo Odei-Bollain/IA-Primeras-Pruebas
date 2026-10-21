@@ -27,6 +27,6 @@ prediccion = modelo.predict(paciente_nuevo)
 
 print("--- RESULTADO DEL DIAGNÓSTICO ---")
 if prediccion[0] == 1:
-    print("La IA detecta patrones compatibles con GRIPE 🤒")
+    print("La IA detecta patrones compatibles con GRIPE")
 else:
-    print("La IA indica que el paciente está SANO / RESFRIADO COMÚN 🟢")
+    print("La IA indica que el paciente está SANO / RESFRIADO COMÚN")
